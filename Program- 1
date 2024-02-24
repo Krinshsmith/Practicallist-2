@@ -1,0 +1,22 @@
+public class p1
+{
+    private String message;
+    
+    public p1(String msg) 
+    {
+        this.message = msg;
+    }
+    
+    public void displayMessage() 
+    {
+        System.out.println("Message: " + message);
+    }
+    
+    public static void main(String[] args) 
+    {
+        System.out.println("My Name Is Krinshsmith Kava"):
+        System.out.println("Er_no :: 220130318102"):
+        p1 obj = new p1("Hello, World!");
+        obj.displayMessage();
+    }
+}
