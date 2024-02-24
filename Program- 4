@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class p4 
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("My Name Is Krinshsmith Kava");
+        System.out.println("Er_no :: 220130318102");
+        Circle circle = new Circle();
+        System.out.print("The area of the circle is: " + circle.calculateArea());
+    }
+}
+
+class Circle
+{
+    double radius;
+
+    public Circle() 
+   {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the radius of the circle: ");
+        this.radius = input.nextDouble();
+        input.close();
+    }
+
+    public double calculateArea() 
+    {
+        return Math.PI * Math.pow(radius, 2);
+    }
+}
